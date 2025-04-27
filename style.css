@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+body{
+    background-color: #e8e4e4;
+    font-family: sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+header{
+    background-color: #18b3bb; 
+    color: #2c3838;
+    padding: 5px;
+}
+
+main{
+    flex: 1;
+    width: 80%; 
+    margin: 20px auto;
+}
+
+.imagem{
+    text-align: center;
+}
+
+.imagem2{ 
+    width: 50px;
+    height: 50px;
+}
+.paragrafo-conteudo-principal{
+    text-align: justify
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+article{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #03d1d8;
+    color: #2c3838;
+    border-radius: 10px;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h2{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.phishing{
+    color: #EB3324;
+    text-decoration: none;
+}
+
+.voltar{
+    text-decoration: none;
+    padding-left: 45%;
+    color: #0E676B;
+}
+
+.rodape{ 
+    padding:1em 0; 
+    background-color:#03d1d8; 
+    color: #2c3838;
+    text-align: center;
+    font-family: sans-serif;
+}
